@@ -56,7 +56,7 @@ for (let i = 0; i<jugar; i++) {
 if (resultadoPersona>resultadoMaquina) {
     alert(`Felicidades, eres el maestro del cachipun! Ganaste con ${resultadoPersona} puntos!!!`)
 }
-if (resultadoMaquina>resultadoPersona) {
+else if (resultadoMaquina>resultadoPersona) {
     alert(`Lamentablemente el computador ganó, con ${resultadoMaquina} puntos`)
 }else{alert(`El computador y tú han empatado con ${resultadoMaquina} puntos y ${resultadoPersona} puntos!!! `)}
 
